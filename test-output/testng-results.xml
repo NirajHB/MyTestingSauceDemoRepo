@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T11:03:54 IST" name="Suite" finished-at="2022-10-10T11:04:25 IST" duration-ms="30533">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T11:03:54 IST" name="Test" finished-at="2022-10-10T11:04:25 IST" duration-ms="30533">
+      <class name="com.sauceDemo.testcases.TC05_ApplyFilterFun_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauceDemo.testcases.TC05_ApplyFilterFun_Test@306e95ec]" started-at="2022-10-10T11:04:07 IST" name="setUp" finished-at="2022-10-10T11:04:14 IST" duration-ms="7105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ApplyFilterFunctionality()[pri:0, instance:com.sauceDemo.testcases.TC05_ApplyFilterFun_Test@306e95ec]" started-at="2022-10-10T11:04:14 IST" name="ApplyFilterFunctionality" finished-at="2022-10-10T11:04:15 IST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyFilterFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.testcases.TC05_ApplyFilterFun_Test@306e95ec]" started-at="2022-10-10T11:04:15 IST" name="tearDown" finished-at="2022-10-10T11:04:17 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.testcases.TC05_ApplyFilterFun_Test -->
+      <class name="com.sauceDemo.testcases.TC03_AddToCartFunctionality_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauceDemo.testcases.TC03_AddToCartFunctionality_Test@74751b3]" started-at="2022-10-10T11:03:54 IST" name="setUp" finished-at="2022-10-10T11:04:05 IST" duration-ms="10489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartFunctionality()[pri:0, instance:com.sauceDemo.testcases.TC03_AddToCartFunctionality_Test@74751b3]" started-at="2022-10-10T11:04:05 IST" name="AddToCartFunctionality" finished-at="2022-10-10T11:04:06 IST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.testcases.TC03_AddToCartFunctionality_Test@74751b3]" started-at="2022-10-10T11:04:06 IST" name="tearDown" finished-at="2022-10-10T11:04:07 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.testcases.TC03_AddToCartFunctionality_Test -->
+      <class name="com.sauceDemo.testcases.TC02_LogOutFunctionality_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauceDemo.testcases.TC02_LogOutFunctionality_Test@58d75e99]" started-at="2022-10-10T11:03:54 IST" name="setUp" finished-at="2022-10-10T11:04:05 IST" duration-ms="10155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogOutFuncionality()[pri:0, instance:com.sauceDemo.testcases.TC02_LogOutFunctionality_Test@58d75e99]" started-at="2022-10-10T11:04:05 IST" name="LogOutFuncionality" finished-at="2022-10-10T11:04:06 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFuncionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.testcases.TC02_LogOutFunctionality_Test@58d75e99]" started-at="2022-10-10T11:04:06 IST" name="tearDown" finished-at="2022-10-10T11:04:07 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.testcases.TC02_LogOutFunctionality_Test -->
+      <class name="com.sauceDemo.testcases.TC06_AboutTabFunctionality_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauceDemo.testcases.TC06_AboutTabFunctionality_Test@52af26ee]" started-at="2022-10-10T11:04:07 IST" name="setUp" finished-at="2022-10-10T11:04:16 IST" duration-ms="9132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AboutTabFunctionality()[pri:0, instance:com.sauceDemo.testcases.TC06_AboutTabFunctionality_Test@52af26ee]" started-at="2022-10-10T11:04:16 IST" name="AboutTabFunctionality" finished-at="2022-10-10T11:04:17 IST" duration-ms="562" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-PC', ip: '192.168.252.183', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ce6624987a1af1748725e351e172123]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-PC', ip: '192.168.252.183', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:61709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ce6624987a1af1748725e351e172123
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.sauceDemo.pom.HomePagePom.clickedOnAboutTab(HomePagePom.java:67)
+at com.sauceDemo.testcases.TC06_AboutTabFunctionality_Test.AboutTabFunctionality(TC06_AboutTabFunctionality_Test.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutTabFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.testcases.TC06_AboutTabFunctionality_Test@52af26ee]" started-at="2022-10-10T11:04:17 IST" name="tearDown" finished-at="2022-10-10T11:04:17 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.testcases.TC06_AboutTabFunctionality_Test -->
+      <class name="com.sauceDemo.testcases.TC04_BuyProductFunctionality_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauceDemo.testcases.TC04_BuyProductFunctionality_Test@741a8937]" started-at="2022-10-10T11:04:06 IST" name="setUp" finished-at="2022-10-10T11:04:13 IST" duration-ms="7485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="BuyProductFunctionality()[pri:0, instance:com.sauceDemo.testcases.TC04_BuyProductFunctionality_Test@741a8937]" started-at="2022-10-10T11:04:13 IST" name="BuyProductFunctionality" finished-at="2022-10-10T11:04:15 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyProductFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.testcases.TC04_BuyProductFunctionality_Test@741a8937]" started-at="2022-10-10T11:04:15 IST" name="tearDown" finished-at="2022-10-10T11:04:16 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.testcases.TC04_BuyProductFunctionality_Test -->
+      <class name="com.sauceDemo.testcases.TC07_SelectMultipleProductAtTime">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauceDemo.testcases.TC07_SelectMultipleProductAtTime@6fd83fc1]" started-at="2022-10-10T11:04:16 IST" name="setUp" finished-at="2022-10-10T11:04:23 IST" duration-ms="6481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SelectMultipleProductAtTime()[pri:0, instance:com.sauceDemo.testcases.TC07_SelectMultipleProductAtTime@6fd83fc1]" started-at="2022-10-10T11:04:23 IST" name="SelectMultipleProductAtTime" finished-at="2022-10-10T11:04:24 IST" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectMultipleProductAtTime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.testcases.TC07_SelectMultipleProductAtTime@6fd83fc1]" started-at="2022-10-10T11:04:24 IST" name="tearDown" finished-at="2022-10-10T11:04:25 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.testcases.TC07_SelectMultipleProductAtTime -->
+      <class name="com.sauceDemo.testcases.TC01_LogInFunctionality_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauceDemo.testcases.TC01_LogInFunctionality_Test@71238fc2]" started-at="2022-10-10T11:03:54 IST" name="setUp" finished-at="2022-10-10T11:04:05 IST" duration-ms="10295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginFunctionality()[pri:0, instance:com.sauceDemo.testcases.TC01_LogInFunctionality_Test@71238fc2]" started-at="2022-10-10T11:04:05 IST" name="LoginFunctionality" finished-at="2022-10-10T11:04:05 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.testcases.TC01_LogInFunctionality_Test@71238fc2]" started-at="2022-10-10T11:04:05 IST" name="tearDown" finished-at="2022-10-10T11:04:06 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.testcases.TC01_LogInFunctionality_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
